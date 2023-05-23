@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Przekierowanie na Startit</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #36393f;
+      margin: 0;
+      padding: 0;
+    }
+
+    .loader {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      border: 8px solid rgba(47, 189, 80, 0.2);
+      border-top-color: #2fbd50;
+      border-radius: 50%;
+      animation: spin 1s ease-in-out infinite;
+      margin-bottom: 20px;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    h1 {
+      font-family: 'Arial', sans-serif;
+      font-size: 28px;
+      color: #fff;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .footer {
+      font-family: 'Arial', sans-serif;
+      font-size: 12px;
+      color: #666;
+      position: fixed;
+      bottom: 10px;
+      color: #fff;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      setTimeout(redirect, 1000);
+    };
+
+    function redirect() {
+      window.location.href = "http://www.przykladowa-strona.pl";
+    }
+  </script>
+</head>
+<body>
+  <div class="loader"></div>
+  <h1>Przekierowanie na Startit</h1>
+  <div class="footer">By DeBondor#0001</div>
+</body>
+</html>
