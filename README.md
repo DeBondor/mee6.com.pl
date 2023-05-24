@@ -1,1 +1,1 @@
-A simple writed website for startit with CSS, JS, HTML
+mee6.com.pl page redirecting to start it.bot.
