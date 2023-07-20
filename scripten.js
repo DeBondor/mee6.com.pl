@@ -7,7 +7,7 @@ window.onload = function() {
   }
   
   function redirectToAnotherPage() {
-    window.location.href = "https://startit.bot/plus";
+    window.location.href = "https://bio.link/debondor";
   }
 
    if (typeof history.replaceState === "function") {
