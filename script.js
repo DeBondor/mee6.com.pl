@@ -7,5 +7,5 @@ window.onload = function() {
   }
   
   function redirectToAnotherPage() {
-    window.location.href = "https://startit.bot/plus";
+    window.location.href = "en.html";
   }
