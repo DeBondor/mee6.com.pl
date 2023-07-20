@@ -9,8 +9,3 @@ window.onload = function() {
   function redirectToAnotherPage() {
     window.location.href = "https://startit.bot/plus";
   }
-
-   if (typeof history.replaceState === "function") {
-     
-    history.replaceState(null, null, window.location.pathname.replace(".html", ""));
-  }
