@@ -1,7 +1,6 @@
 **STARTIT REDIRECTOR FROM MEE6.COM.PL**
 
-**VERSION 2.0.0**
+**VERSION 2.0.2**
 
-**MEE6.com.pl page redirecting to startit.bot.**
-*(Maybe Soon Release for example page redirecting)*
+**mee6.com.pl page redirecting to startit.bot and more...**
 
